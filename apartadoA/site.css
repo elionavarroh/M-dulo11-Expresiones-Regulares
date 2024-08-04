@@ -1,0 +1,28 @@
+body, input, button, p, h1 {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  padding-top: 50px;
+  text-align: left;
+}
+
+input, button {
+  width: calc(100% - 24px);
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+#resultados p {
+  background-color: #f0f0f0;
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 4px;
+}
