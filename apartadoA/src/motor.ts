@@ -8,7 +8,7 @@ import {
 
 //Limpiamos el IBAN
 export const limpiarIban = (iban: string): string => {
-    return iban.replace(/[\s-]/g, '');
+    return iban.replace(/[^a-zA-Z0-9]/g, ''); 
 };
 
 //Valisamos el IBAN utilizando isValidIBAN de ibantools
